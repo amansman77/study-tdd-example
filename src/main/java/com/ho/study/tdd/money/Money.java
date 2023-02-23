@@ -3,6 +3,7 @@ package com.ho.study.tdd.money;
 public abstract class Money {
     
     protected int amount;
+    protected String currency;
 
     @Override
     public boolean equals(Object obj) {
@@ -27,12 +28,17 @@ public abstract class Money {
     }
 
     public static Money dollar(int amount) {
-        return new Dollar(amount);
+        return new Dollar(amount, "USD");
     }
 
     public static Money franc(int amount) {
-        return new Franc(amount);
+        return new Franc(amount, "CHF");
     }
 
     public abstract Money time(int mulltiplier);
+    
+    public String currency() {
+        return this.currency;
+    }
+
 }

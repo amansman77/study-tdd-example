@@ -2,12 +2,13 @@ package com.ho.study.tdd.money;
 
 public class Franc extends Money  {
 
-    public Franc(int amount) {
+    public Franc(int amount, String currency) {
         this.amount = amount;
+        this.currency = currency;
     }
 
-    public Franc time(int multiplier) {
-        return new Franc(amount * multiplier);
+    public Money time(int multiplier) {
+        return Money.franc(amount * multiplier);
     }
 
 }
