@@ -2,7 +2,7 @@ package com.ho.study.tdd.money;
 
 public class Dollar {
 
-    public int amount;
+    private int amount;
 
     public Dollar(int amount) {
         this.amount = amount;
@@ -25,7 +25,7 @@ public class Dollar {
             return false;
         return true;
     }
-    
+
     @Override
     public int hashCode() {
         final int prime = 31;
