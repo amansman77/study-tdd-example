@@ -60,6 +60,7 @@ public class Money implements Expression {
         return this.currency;
     }
 
+    @Override
     public Expression plus(Expression addend) {
         return new Sum(this, addend);
     }
