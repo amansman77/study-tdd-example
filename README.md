@@ -28,13 +28,13 @@ TODO List
 - ~~Dollar 부작용(side effect)?~~
 - Money 반올림?
 - ~~equals()~~
-- hashCode()
+- ~~hashCode()~~
 - Equal null
 - Equal object
 - ~~5CHF * 2 = 10CHF~~
 - ~~Dollar/Franc 중복~~
 - ~~공용 equals~~
-- 공용 times
+- ~~공용 times~~
 - ~~Franc 과 Dollar 비교하기~~
 - ~~통화?~~
 - ~~testFrancMultiplication 제거~~
