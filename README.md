@@ -16,11 +16,11 @@
 
 TODO List
 - $5 + 10CHF = $10 (환율이 2:1 일 경우)
-- $5 + $5 = $10
+- ~~$5 + $5 = $10~~
 - $5 + $5에서 Money 반환하기
 - ~~Bank.reduce(Money)~~
-- Money에 대한, 통화 변환을 수행하는 Reduce
-- Reduce(Bank, String)
+- ~~Money에 대한, 통화 변환을 수행하는 Reduce~~
+- ~~Reduce(Bank, String)~~
 - ~~$5 * 2 = $10~~
 - ~~amount를 private으로 만들기~~
 - ~~Dollar 부작용(side effect)?~~
