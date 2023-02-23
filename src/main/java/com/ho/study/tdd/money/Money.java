@@ -1,6 +1,6 @@
 package com.ho.study.tdd.money;
 
-public class Money {
+public abstract class Money {
     
     protected int amount;
 
@@ -25,4 +25,14 @@ public class Money {
         result = prime * result + amount;
         return result;
     }
+
+    public static Money dollar(int amount) {
+        return new Dollar(amount);
+    }
+
+    public static Money franc(int amount) {
+        return new Franc(amount);
+    }
+
+    public abstract Money time(int mulltiplier);
 }
