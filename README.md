@@ -29,4 +29,5 @@ TODO List
 - ~~공용 equals~~
 - 공용 times
 - ~~Franc 과 Dollar 비교하기~~
-- 통화?
+- ~~통화?~~
+- ~~testFrancMultiplication 제거~~
