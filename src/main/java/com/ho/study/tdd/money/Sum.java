@@ -17,7 +17,7 @@ public class Sum implements Expression {
 
     @Override
     public Expression plus(Expression addend) {
-        throw new UnsupportedOperationException("Unimplemented method 'plus'");
+        return new Sum(this, addend);
     }
 
 }
