@@ -20,3 +20,5 @@ TODO List
 - amount를 private으로 만들기
 - ~~Dollar 부작용(side effect)?~~
 - Money 반올림?
+- ~~equals()~~
+- hashCode()
