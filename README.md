@@ -1,6 +1,6 @@
 # Test-Driven Development: By Example
 
-`테스트 주도 개발`을 읽고 예제를 따라해보는 공간입니다.
+`테스트 주도 개발`을 읽고 화폐 예제를 따라해보는 공간입니다.
 
 ## Money
 
